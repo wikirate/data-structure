@@ -22,4 +22,10 @@ Define the notation and structure for communication between CERTH's software and
   *  Output: a list of "links" relevant to the input consisting of: id, URL, title, array of related to the URL images, name of wikirate source if it's an internal "link"
 
 3) When user adds a new claim and enters a set of topics and/or set of companies
-  * to be further discussed internally (CERTH) and propose a solution
+   * to be further discussed internally (CERTH) and propose a solution
+
+
+## Testing tools
+* https://github.com/wordnik/swagger-ui (setup a swagger for your convenience if needed)
+* http://restclient.net/ (as FF extension)
+* any REST client you like :)
