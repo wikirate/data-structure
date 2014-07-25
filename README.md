@@ -7,8 +7,8 @@ Define the notation and structure for communication between CERTH's software and
 ### What's needed from WAGN
 
 * A method to push new sources to CERTH (At the moment we pull the list "by hand" or we can have a cronjob for this)
-* A method to get the list of topics which includes the list of related companies for each topics (and probably a push notification when new topic is added)
-* A method to get the list of companies which includes the list of related topics for each topics(and probably a push notification when new company is added)
+* A method to get the list of topics  (and probably a push notification when new topic is added)
+* A method to get the list of companies (and probably a push notification when new company is added)
 
 (Pushing new topics/companies/sources, etc are needed so as to update our collection(s) -> fetching, indexing, etc)
 

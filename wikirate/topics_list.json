@@ -1,34 +1,10 @@
 [
    {
       "id":1204,
-      "name":"Community",
-      "related_topics":[
-         {
-            "id":1797,
-            "name":"Samsung",
-            "image_url":"http://wikirate.org/files/Samsung+logo-large-12705.jpeg"
-         },
-         {
-            "id":1578,
-            "name":"Apple",
-            "image_url":"http://wikirate.org/files/Apple+Logo-large-12252.jpg"
-         }
-      ]
+      "name":"Community"
    },
    {
       "id":1246,
-      "name":"Animal Rights",
-      "related_topics":[
-         {
-            "id":1797,
-            "name":"Samsung",
-            "image_url":"http://wikirate.org/files/Samsung+logo-large-12705.jpeg"
-         },
-         {
-            "id":1578,
-            "name":"Apple",
-            "image_url":"http://wikirate.org/files/Apple+Logo-large-12252.jpg"
-         }
-      ]
+      "name":"Animal Rights"
    }
 ]
