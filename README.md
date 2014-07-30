@@ -14,12 +14,12 @@ Define the notation and structure for communication between CERTH's software and
 
 ### When to invoke CERTH services
 1) When user adds a new claim and enters the title
-  *  Input: title (or to be more precisely: a set of keywords --> we transform title to keywords after all)
-  *  Output: a list of "links" relevant to the input consisting of: id, URL, title, array of related to the URL images, name of wikirate source if it's an internal "link"
+  *  Input: title (or to be more precisely: a set of keywords --> we transform title to keywords after all), max_char_of_desc( maximum characters of description, -1 for returning whole description)
+  *  Output: a list of "links" relevant to the input consisting of: id, URL, title, array of related to the URL images, description, name of wikirate source if it's an internal "link"
 
 2) When user adds a new claim and enters a new source (URL)
-  *  Input: any valid URL
-  *  Output: a list of "links" relevant to the input consisting of: id, URL, title, array of related to the URL images, name of wikirate source if it's an internal "link"
+  *  Input: any valid URL, max_char_of_desc( maximum characters of description, -1 for returning whole description)
+  *  Output: a list of "links" relevant to the input consisting of: id, URL, title, array of related to the URL images, description, name of wikirate source if it's an internal "link"
 
 3) When user adds a new claim and enters a set of topics and/or set of companies
   * to be further discussed internally (CERTH) and propose a solution
